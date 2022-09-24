@@ -16,5 +16,4 @@ IPHONEOS_DEPLOYMENT_TARGET = 9.0
 
 INFOPLIST_FILE = $(SRCROOT)/SocketRocket/Resources/Info.plist
 
-OTHER_CFLAGS[sdk=iphoneos9.*] = $(inherited) -fembed-bitcode
 OTHER_LDFLAGS = $(inherited) -Licucore
