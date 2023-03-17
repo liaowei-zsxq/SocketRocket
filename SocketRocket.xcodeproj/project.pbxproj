@@ -1096,6 +1096,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D647561D2CA6A100690609 /* Debug.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -1103,6 +1106,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D647571D2CA6A100690609 /* Release.xcconfig */;
 			buildSettings = {
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
